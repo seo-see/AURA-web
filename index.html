@@ -110,6 +110,10 @@
             <span class="author-block"><sup>2</sup>Samsung Medical Center</span>
           </div>
 
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+            <span class="author-block"><b>AAAI 2026</b> &mdash; AI for Social Impact</span>
+          </div>
+
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link.
@@ -123,6 +127,15 @@
                 </a>
               </span> -->
               <span class="link-block">
+                <a href="https://doi.org/10.1609/aaai.v40i46.41269"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-book"></i>
+                  </span>
+                  <span>AAAI</span>
+                </a>
+              </span>
+              <span class="link-block">
                 <a href="https://arxiv.org/abs/2511.12241"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -130,7 +143,6 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
               </span>
               <!-- Code Link. -->
               <span class="link-block">
@@ -340,11 +352,15 @@
 
 <script>
   function copyBibTeX(event) {
-    const bibtex = `@article{seo2025aura,
-    title={AURA: Development and Validation of an Augmented Unplanned Removal Alert System using Synthetic ICU Videos},
+    const bibtex = `@inproceedings{seo2026aura,
+    title={AURA: Development and Validation of an Augmented Unplanned Removal Alert System Using Synthetic ICU Videos},
     author={Seo, Junhyuk and Moon, Hyeyoon and Jung, Kyu-Hwan and Oh, Namkee and Kim, Taerim},
-    journal={arXiv preprint arXiv:2511.12241},
-    year={2025}
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume={40},
+    number={46},
+    pages={39211--39218},
+    year={2026},
+    doi={10.1609/aaai.v40i46.41269}
   }`;
 
     // Support for browsers without Clipboard API
@@ -408,11 +424,15 @@
   <div class="container is-max-desktop content">
     <h3 class="title is-3">Citation</h3>
     <div class="content">
-      <pre><code>@article{seo2025aura,
-      title={AURA: Development and Validation of an Augmented Unplanned Removal Alert System using Synthetic ICU Videos},
+      <pre><code>@inproceedings{seo2026aura,
+      title={AURA: Development and Validation of an Augmented Unplanned Removal Alert System Using Synthetic ICU Videos},
       author={Seo, Junhyuk and Moon, Hyeyoon and Jung, Kyu-Hwan and Oh, Namkee and Kim, Taerim},
-      journal={arXiv preprint arXiv:2511.12241},
-      year={2025}
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume={40},
+      number={46},
+      pages={39211--39218},
+      year={2026},
+      doi={10.1609/aaai.v40i46.41269}
     }</code></pre>
       <div style="display: flex; justify-content: flex-end;">
         <button class="button is-small is-light" onclick="copyBibTeX()">
